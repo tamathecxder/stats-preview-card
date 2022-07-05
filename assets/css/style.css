@@ -101,3 +101,22 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.stat-card-body h1 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 28px
+}
+
+.stat-card-body p {
+  max-width: 360px;
+  font-size: var(--font-size);
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--main-slightly-transparent-white);
+  margin-bottom: 54px;
+}
+
+.stat-card-body span {
+  color: var(--soft-violet);
+}
