@@ -58,3 +58,16 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.stat-card {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: auto;
+  border-radius: 8px;
+  background-color: var(--dark-desaturated-blue);
+  overflow: hidden;
+  position: relative;
+}
