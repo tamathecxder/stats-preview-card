@@ -120,3 +120,21 @@ body {
 .stat-card-body span {
   color: var(--soft-violet);
 }
+
+.stat-card-body .statistic-data {
+  max-width: 320px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-card-body .statistic-data .data-number {
+  font-size: 20px;
+}
+
+.stat-card-body .statistic-data .data-title {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--stat-slightly-transparent-white);
+  font-family: var(--font-lexend-deca);
+}
