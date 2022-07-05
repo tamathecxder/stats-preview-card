@@ -34,7 +34,22 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  margin: auto;
+  padding: 20px;
+}
+
+.display-flex {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
 }
 
 
