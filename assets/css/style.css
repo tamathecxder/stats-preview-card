@@ -71,3 +71,25 @@ body {
   overflow: hidden;
   position: relative;
 }
+
+.stat-card-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.stat-card-image .backdrop {
+  position: absolute;
+  opacity: 0.6;
+  width: 50%;
+  height: 100%;
+  background-color: var(--dark-violet);
+}
+
+.stat-card-image img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  
+}
