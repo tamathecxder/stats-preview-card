@@ -90,6 +90,14 @@ body {
 .stat-card-image img {
   width: 500px;
   height: 400px;
-  object-fit: cover;
-  
+  object-fit: cover; 
+}
+
+.stat-card-body {
+  width: 50%;
+  max-width: 600px;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
 }
