@@ -10,6 +10,7 @@
   --very-dark-blue: hsl(233, 47%, 7%); /* (main background) */
   --dark-desaturated-blue: hsl(244, 38%, 16%); /* (Card background) */
   --soft-violet: hsl(277, 64%, 61%); /* (Accent) */
+  --dark-violet: hsl(283, 82%, 22%); /* (Accent) */
 
   /*
     NEUTRAL
@@ -24,6 +25,7 @@
   */
 
   --font-size: 15px;
+  --font-lexend-deca: 'Lexend Deca', sans-serif;
 }
 
 /* Reset */
@@ -46,17 +48,13 @@ body {
   padding: 20px;
 }
 
+.stat-parent {
+  height: 100%;
+  width: 100%;
+}
+
 .display-flex {
   display: flex !important;
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
-
-
-
-
